@@ -16,6 +16,11 @@
         <link rel="alternate" hreflang="en" href="#" />
 
         <!-- Favicon -->
+        <script type="text/javascript">
+             $(document).on('mousedown', '[modalidade] [plugin-scroll-to=".formulario"]', function (){
+                console.log(''+$(this).parent().siblings('.panel-body').find('.valor-new ').text().replace('R$','').replace(',','.').trim())
+             })
+        </script>
 
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
